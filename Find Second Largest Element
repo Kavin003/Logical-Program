@@ -1,0 +1,4 @@
+list1=[3,35,90,76,24,67]
+list2=list1.copy()
+list2.remove(max(list2))
+print(max(list2))
