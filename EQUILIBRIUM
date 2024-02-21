@@ -1,0 +1,11 @@
+a=[2,3,7,1,4]
+right_sum=sum(a)
+left_sum=0
+for i in range(len(a)):
+    right_sum-=a[i]
+    if right_sum==left_sum:
+        print("Given List is Equilibrium")
+        break
+    left_sum+=a[i]
+else:
+    print("Given List is not Equilibrium")
