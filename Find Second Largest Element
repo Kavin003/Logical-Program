@@ -1,4 +1,4 @@
-list1=[3,35,90,76,24,67]
-list2=list1.copy()
-list2.remove(max(list2))
-print(max(list2))
+list=[3,35,90,76,24,67]
+list.sort()
+second_largest_element=list[-2]
+print(second_largest_element)
