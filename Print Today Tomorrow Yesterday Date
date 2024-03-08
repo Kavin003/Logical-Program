@@ -1,0 +1,11 @@
+import datetime as dt
+
+presentday = dt.datetime.now()
+
+yesterday = presentday - dt.timedelta(days=1)
+
+tomorrow = presentday + dt.timedelta(days=1)
+
+print("Yesterday = ", yesterday.strftime('%d-%m-%Y'))
+print("Today = ", presentday.strftime('%d-%m-%Y'))
+print("Tomorrow = ", tomorrow.strftime('%d-%m-%Y'))
